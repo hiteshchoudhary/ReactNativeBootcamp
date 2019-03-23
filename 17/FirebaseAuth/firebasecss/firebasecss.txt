@@ -1,0 +1,88 @@
+++++++++++++++++++SignUp Screen +++++++++++++++++++++++
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff"
+  },
+  logoContainer: {
+    alignItems: "center",
+    marginTop: 100,
+    marginBottom: 100
+  },
+  form: {
+    padding: 20,
+    width: "100%"
+  },
+  button: {
+    marginTop: 20
+  },
+  buttonText: {
+    color: "#fff"
+  },
+  footer: {
+    alignItems: "center"
+  }
+});
+
+++++++++++++++++++SignUp Screen +++++++++++++++++++++++
+
+
+++++++++++++++++++SignIn Screen +++++++++++++++++++++++
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff"
+  },
+  logoContainer: {
+    alignItems: "center",
+    marginTop: 100,
+    marginBottom: 100
+  },
+  form: {
+    padding: 20,
+    width: "100%",
+    marginBottom: 30
+  },
+  button: {
+    marginTop: 20
+  },
+  buttonText: {
+    color: "#fff"
+  },
+  footer: {
+    alignItems: "center"
+  }
+});
+
+
+++++++++++++++++++SignIn Screen +++++++++++++++++++++++
+
+
+++++++++++++++++++Home Screen +++++++++++++++++++++++
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    margin: 20
+  },
+  logoContainer: {
+    alignItems: "center",
+    marginTop: 100,
+    marginBottom: 100
+  },
+  userDetails: {},
+
+  button: {
+    marginTop: 20
+  },
+  buttonText: {
+    color: "#fff"
+  }
+});
+
+++++++++++++++++++Home Screen +++++++++++++++++++++++

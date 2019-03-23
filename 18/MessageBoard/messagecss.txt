@@ -1,0 +1,40 @@
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    marginTop: 25,
+    margin: 2,
+    backgroundColor: "#01CBC6"
+  },
+  header: {
+    backgroundColor: "#2B2B52",
+    alignItems: "center",
+    height: 40,
+    justifyContent: "center"
+  },
+  headerText: {
+    paddingHorizontal: 10,
+    color: "#FFF",
+    fontSize: 20
+  },
+  listContainer: {
+    flex: 1,
+    padding: 5
+  },
+  listItem: {
+    padding: 10
+  },
+  messageText: {
+    fontSize: 20
+  },
+  timeText: {
+    fontSize: 10
+  },
+  inputContainer: {
+    flexDirection: "row",
+    padding: 5,
+    borderWidth: 5,
+    borderRadius: 15,
+    borderColor: "#2B2B52",
+    color: "#fff"
+  }
+});
