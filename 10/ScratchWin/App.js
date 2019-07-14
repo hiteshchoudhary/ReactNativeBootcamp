@@ -70,7 +70,7 @@ export default class App extends React.Component {
   resetGame = () => {
     this.setState({ randomNumber: this.generateRandomNumber() }, () => {
       itemArray.fill("empty");
-      this.forceUpdate;
+      this.forceUpdate(); // () is necessary 
     });
   };
 
